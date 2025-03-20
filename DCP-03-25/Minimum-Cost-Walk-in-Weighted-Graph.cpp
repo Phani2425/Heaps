@@ -85,3 +85,12 @@ public:
 // acha mane achi ame katah haucthile ki sabuthara & calculate kn kariba gote  jagare store karidaba...seta karibaku amaku ebe ahuri subidha haba...basically we will create a vector and as we are joiing diff nodes so ame gote set ra parent index re se set ra sabu edges ra & operated value store karidaba for direct access
 
 //and ame se vector ku first -1 re intialise kariba as we want that jetebele bi kichi join haba bas ta parent index re thiba value ku ame new parent index re thiba value saha & kariki vector re store karidaba ay emitit hele ama pakhare updated value rahiba as we keep on joing unions for building actual graph   au sethipain jetebele first jooin haba for maintitng that value we initialie it with -1 as :- [any_num & -1 == any_num]
+
+
+//AUR EK CHIZ YAAD RAKH KI AME DSU USE KARIKI GOTE STRUCTURE TIALRI KARUCHU BUT DONT THINK KI WE ARE CREATING THE GRAPH STRUCTURE ...NO WE ARE JUST CREATING A STRUCTURE WHICH SAYS WHAT WHAT NODES BELONGS TO WHICH SET OR UNION NOTHING ELSE
+
+//AUR THINK THAT WHAY DO AND OPEARTION OF -1 WITH ANY NUMBER GIVES THAT NUMBER IN RETURN???
+
+// OR OPERATION EITHER VALUE CONSTANT RAKHIBA OR INCRESE KARIBA AU AND OPEARTOOR VALUE CONSTANT RAKHIBA OR DECREASE KARIBA
+
+//AND IF YOU NEED TO RESERVE THE 1 BITS FO EVERY NUMBER THEN USE OR OEPRATOR BETWEEN THEM AS BY THAT IF ANY NUMMBER WILL HAVE 1 AT NTH POSITION THE THE END RESULT WILL ANYHOW HAVE THE 1 AT NTH BIT
