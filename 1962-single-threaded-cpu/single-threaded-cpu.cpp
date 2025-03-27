@@ -20,7 +20,7 @@ public:
         //sorting
         sort(rbegin(tasks),rend(tasks));
         vector<int> ans;
-        long long int currTime = 1;
+        long long currTime = tasks.back()[0];
         int size = tasks.size();
         while(ans.size() < size){
             while(!tasks.empty() && tasks.back()[0] <= currTime){
